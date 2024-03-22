@@ -1,0 +1,98 @@
+/* Header */
+@charset "utf-8";
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#shapeContainer {
+    text-align: center;
+}
+
+.header {
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Shape Options */
+#shapeOptions {
+    margin-bottom: 20px;
+}
+
+.shape {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+}
+
+.square {
+    border-radius: 0;
+}
+
+/* Color Select */
+.color-select {
+    margin-top: 10px;
+    width: 120px; /* Adjust width as needed */
+    height: 30px; /* Adjust height as needed */
+    background-color: #333; /* Dark grey */
+    color: white; /* White text */
+}
+
+/* Create Button */
+#createBtn {
+    margin-top: 10px;
+    width: 100px; /* Adjust width as needed */
+    height: 30px; /* Adjust height as needed */
+    background-color: #009688; /* Teal */
+    color: white; /* White text */
+}
+
+/* Shape Select */
+#shapeSelect {
+    margin-top: 10px;
+    width: 120px; /* Adjust width as needed */
+    height: 30px; /* Adjust height as needed */
+    background-color: #333; /* Dark grey */
+    color: white; /* White text */
+    margin-right: 10px; /* Add margin for spacing */
+}
+
+/* Shape Grid Container */
+#shapeGridContainer {
+    background-color: rgb(24, 24, 24);
+    padding: 20px;
+    height: 200px;
+    width: 321px; /* Adjust width as needed */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Change to flex-start */
+    align-items: flex-end; /* Keep at flex-end */
+    position: relative; /* Needed for absolute positioning */
+}
+
+/* Output Box */
+#outputBox {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin-top: 8px;
+    padding: 10px; /* Add padding for better visibility */
+}
+
+/* Storage Full Message */
+#storageFullMessage {
+    color: white;
+    margin-top: 10px;
+    display: none; /* Initially hide the message */
+    position: absolute; /* Position at the bottom */
+    bottom: 178px; /* Adjust bottom position as needed */
+    left: 50%;
+    transform: translateX(-50%);
+}
