@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Nishat Samanta Progga">
+    <meta name="description" content="Portfolio">
+    <meta name="keywords" content="software developer, front-end, business intelligence, data models">
+    <title>Shape Factory</title>
+    <link rel="icon" href="./assets/img/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+
+<body>
+  <div id="shapeContainer">
+    <h1 class="header">Shape Factory</h1> 
+    <div id="shapeOptions">
+      <select id="shapeSelect">
+        <option value="circle">Circle</option>
+        <option value="square">Square</option>
+      </select>
+      <select id="colorSelect" class="color-select">
+        <option value="#09f">Blue</option>
+        <option value="#9f0">Green</option>
+        <option value="#f90">Orange</option>
+        <option value="#f09">Pink</option>
+        <option value="#90f">Purple</option>
+      </select>
+      <button id="createBtn">Create</button>
+    </div>
+    <div id="shapeGridContainer"></div>
+    <div id="storageFullMessage">Storage is full!</div>
+    <div id="outputBox"></div>
+  </div>
+  <script src="./assets/script/script.js"></script>
+</body>
+</html>
