@@ -2,7 +2,7 @@
 
 ## Description
 This project is a Shape Factory application where users can create shapes with different colors.
-
+To see live demo click [here
 ## Features
 - Select a shape (square or circle)
 - Select a color (blue, green, orange, pink, purple)
