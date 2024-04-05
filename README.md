@@ -4,6 +4,16 @@
 This project is a Shape Factory application where users can create shapes with different colors.
 
 To see live demo click [here](https://samanthaprogga.github.io/shape-factory/)
+
+## Languages Used
+
+![JavaScript](https://img.shields.io/badge/CODE-JAVASCRIPT-blue?style=for-the-badge
+)
+![HTML5](https://img.shields.io/badge/WEB-HTML-blue?style=for-the-badge
+)
+![CSS3](https://img.shields.io/badge/WEB-CSS-blue?style=for-the-badge
+)
+
 ## Features
 - Select a shape (square or circle)
 - Select a color (blue, green, orange, pink, purple)
