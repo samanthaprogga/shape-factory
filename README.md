@@ -31,9 +31,6 @@ To see live demo click [here](https://samanthaprogga.github.io/shape-factory/)
 3. Click the "Create" button to generate the shape.
 4. Click on a shape to view its information.
 
-## Technologies Used
-- HTML
-- CSS
-- JavaScript
+
 
 
